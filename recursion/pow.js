@@ -16,5 +16,10 @@ function powRecursion(x, n) {
     }
 }
 
+function powRecursionTernar(x, n) {
+    return n === 1 ? x : x * powRecursionTernar(x, n - 1);
+}
+
 console.log("pow", pow(2, 4));
 console.log("powRecursion", powRecursion(2, 4));
+console.log("powRecursionTernar", powRecursionTernar(2, 4));

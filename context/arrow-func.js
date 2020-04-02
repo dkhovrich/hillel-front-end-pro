@@ -4,8 +4,7 @@ let group = {
 
     showList() {
         this.students.forEach(function (student) {
-            // Error: Cannot read property 'title' of undefined
-            alert(this.title + ': ' + student)
+            console.log(this.title + ': ' + student)
         });
     }
 };
@@ -18,7 +17,7 @@ let group = {
 
     showList() {
         this.students.forEach(
-            student => alert(this.title + ': ' + student)
+            student => console.log(this.title + ': ' + student)
         );
     }
 };

@@ -1,9 +1,9 @@
-let name = "John";
+let name = "Peter Parker";
 
 function sayHi() {
     alert("Hi, " + name);
 }
 
-name = "Pete";
+name = "John Jameson";
 
 sayHi();

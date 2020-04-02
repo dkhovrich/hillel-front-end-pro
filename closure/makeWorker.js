@@ -1,12 +1,12 @@
 function makeWorker() {
-    let name = "Pete";
+    let name = "Peter Parker";
 
     return function () {
-        alert(name);
+        console.log(name);
     };
 }
 
-let name = "John";
+let name = "John Jameson";
 
 let work = makeWorker();
 

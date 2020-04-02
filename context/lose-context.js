@@ -6,3 +6,7 @@ let user = {
 };
 
 setTimeout(user.sayHi, 1000);
+
+setTimeout(function () {
+    user.sayHi();
+}, timeout);
