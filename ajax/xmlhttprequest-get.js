@@ -27,4 +27,8 @@ xhr.onerror = function () {
     console.error("Запрос не удался");
 };
 
+// xhr.setRequestHeader('Content-Type', 'application/json');
+// xhr.setRequestHeader('X-Auth', '123');
+
 xhr.send();
+// xhr.abort();
