@@ -1,1 +1,1 @@
-# hillel-front-end-pro
+# Code for Hillel Front-End Pro course
